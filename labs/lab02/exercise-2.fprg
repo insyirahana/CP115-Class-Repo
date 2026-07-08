@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 11:34:30 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToxMTo0MyBBTTsyNzI5"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozNDozMCBBTTsyOzI4Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LengthinCM" type="Integer" array="False" size=""/>
+            <input variable="LengthinCM"/>
+            <declare name="LengthinMetre" type="Integer" array="False" size=""/>
+            <declare name="PriceperMetre" type="Integer" array="False" size=""/>
+            <declare name="TotalLength" type="Integer" array="False" size=""/>
+            <declare name="TotalPrice" type="Integer" array="False" size=""/>
+            <assign variable="LengthinMetre" expression="LengthinCM/1000"/>
+            <assign variable="TotalLength" expression="LengthinMetre*10"/>
+            <declare name="" type="Integer" array="False" size=""/>
+        </body>
+    </function>
+</flowgorithm>

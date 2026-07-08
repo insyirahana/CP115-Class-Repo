@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 11:10:31 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo1MzoyMyBBTTsyNzMy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToxMDozMSBBTTsxOzI4MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AmountOfRinggit" type="Integer" array="False" size=""/>
+            <input variable="AmountOfRinggit"/>
+            <assign variable="Calculate" expression="AmountOfBahtbasedonAmountOfRinggitwit2%commissioncharges"/>
+            <declare name="AmountOfBaht" type="Integer" array="False" size=""/>
+            <output expression="AmountOfBaht" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
