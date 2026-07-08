@@ -4,9 +4,9 @@
         <attribute name="name" value="exercise-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:34:30 AM"/>
+        <attribute name="saved" value="2026-07-08 10:46:10 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToxMTo0MyBBTTsyNzI5"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozNDozMCBBTTsyOzI4Mzk="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMDo0NjoxMCBBTTszOzI4NDc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -19,7 +19,7 @@
             <declare name="TotalPrice" type="Integer" array="False" size=""/>
             <assign variable="LengthinMetre" expression="LengthinCM/1000"/>
             <assign variable="TotalLength" expression="LengthinMetre*10"/>
-            <declare name="" type="Integer" array="False" size=""/>
+            <output expression="" newline="True"/>
         </body>
     </function>
 </flowgorithm>
